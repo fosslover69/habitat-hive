@@ -35,6 +35,26 @@ We used a wide range of technologies and we'd like to divide them into 3 parts
     - [AdaBoostRegressor](https://scikit-learn.org/stable/auto_examples/ensemble/plot_adaboost_regression.html)
 - [OneAPI](https://www.oneapi.io/) - The Star of the Show
 
+## Why we chose OneAPI?
+OneAPI is a powerful tool for machine learning projects that can help developers achieve better performance and code portability. With its optimized libraries, performance tools, and unified programming model, OneAPI can speed up training and improve inference performance, while simplifying development by enabling developers to write code that can run on different hardware platforms.
+
+Its key benefits include:
+
+- Accelerating training on hardware accelerators, such as GPUs or FPGAs
+- Improving inference performance on various hardware platforms, which can reduce latency and improve throughput
+- Increasing code portability by enabling developers to write code that can run on different hardware architectures
+- Optimizing performance with performance tools that can help developers improve the performance of their code
+- Simplifying development with a unified programming model that can help reduce the need for platform-specific code.
+
+### Benchmarks
+Using oneAPI in our project provided us with around 2% uplift in accuracy. This may seem like a tiny improvement but on larger datasets this will impact accuracy on a larger scale.
+
+Our Benchmarks:
+
+![image](https://user-images.githubusercontent.com/67329471/230723911-f3975799-b971-4a51-962c-37a550c63cfd.png)
+
+Convinced with the performance of oneAPI? To integrate it with your project: [click here!](https://github.com/fosslover69/habitat-hive/blob/main/oneAPI-Integration.md)
+
 ## User Guide:
 
 English:
