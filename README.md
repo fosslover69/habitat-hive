@@ -36,6 +36,8 @@ We used a wide range of technologies and we'd like to divide them into 3 parts
 - [OneAPI](https://www.oneapi.io/) - The Star of the Show
 
 ## Why we chose OneAPI?
+![image](https://user-images.githubusercontent.com/67329471/230724677-1e1faf30-83b7-4d6e-95c2-dfd48d2ed0fb.png)
+
 OneAPI is a powerful tool for machine learning projects that can help developers achieve better performance and code portability. With its optimized libraries, performance tools, and unified programming model, OneAPI can speed up training and improve inference performance, while simplifying development by enabling developers to write code that can run on different hardware platforms.
 
 Its key benefits include:
