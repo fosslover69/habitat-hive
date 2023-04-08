@@ -51,7 +51,7 @@ Using oneAPI in our project provided us with around 2% uplift in accuracy. This 
 
 Our Benchmarks:
 
-![image](https://user-images.githubusercontent.com/67329471/230723911-f3975799-b971-4a51-962c-37a550c63cfd.png)
+![image](https://user-images.githubusercontent.com/67329471/230724347-783ff7fc-969e-4999-9e80-b37e970fd3b1.png)
 
 Convinced with the performance of oneAPI? To integrate it with your project: [click here!](https://github.com/fosslover69/habitat-hive/blob/main/oneAPI-Integration.md)
 
