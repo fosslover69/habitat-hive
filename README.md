@@ -46,10 +46,10 @@ Its key benefits include:
 - Improving inference performance on various hardware platforms, which can reduce latency and improve throughput
 - Increasing code portability by enabling developers to write code that can run on different hardware architectures
 - Optimizing performance with performance tools that can help developers improve the performance of their code
-- Simplifying development with a unified programming model that can help reduce the need for platform-specific code.
+- Simplifying development with a unified programming model can help reduce the need for platform-specific code.
 
 ### Benchmarks
-Using oneAPI in our project provided us with around 2% uplift in accuracy. This may seem like a tiny improvement but on larger datasets this will impact accuracy on a larger scale.
+Using oneAPI in our project provided us with around a 2% uplift in accuracy. This may seem like a tiny improvement but on larger datasets, this will impact accuracy on a larger scale.
 
 Our Benchmarks:
 
