@@ -1,0 +1,9 @@
+[submodule "habitat-hive-frontend"]
+	path = habitat-hive-frontend
+	url = https://github.com/fosslover69/habitat-hive-frontend
+[submodule "habitat-hive-server"]
+	path = habitat-hive-server
+	url = https://github.com/fosslover69/habitat-hive-server
+[submodule "habitat-hive-ml"]
+	path = habitat-hive-ml
+	url = https://github.com/fosslover69/habitat-hive-ml
