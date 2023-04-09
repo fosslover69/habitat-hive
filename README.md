@@ -9,9 +9,19 @@ Finding housing properties for rent these days is getting harder and harder. Thi
 Habitat Hive solves these problems using Machine Learning algorithms by giving habitability scores to every property listed. This makes the buyers make an easy and perfect decision.
 
 ## How we solved the problem?
-The project utilizes a dataset obtained from Kaggle, comprising various features such as Property ID, Property type, property area, Number of windows, Number of doors, Furnishing, Frequency of Power cuts, Power backup, Water supply, traffic density score, crime rate, dust and noise, air quality index, neighbourhood review, and habitability score. As the habitability score prediction requires numerical values, all the discrete values were converted into numerical values (e.g., Furnished, Semi Furnished, and Unfurnished to 1, 0.5, and 0, respectively). 
+### Dataset collection
 
-To simplify the dataset, a new dataset was created only comprising common values such as property area, frequency of power cuts, power backup, water supply, traffic density score, crime rate, dust and noise, air quality index, and neighbourhood review for a particular area. This preprocessed dataset will be used for further prediction and model training.
+The project utilizes a dataset obtained from Kaggle, comprising various features such as Property ID, Property type, property area, Number of windows, Number of doors, Furnishing, Frequency of Power cuts, Power backup, Water supply, traffic density score, crime rate, dust and noise, air quality index, neighbourhood review, and habitability score. 
+
+### Data Preprocessing
+
+As the habitability score prediction requires numerical values, all the discrete values were converted into numerical values (e.g., Furnished, Semi Furnished, and Unfurnished to 1, 0.5, and 0, respectively). The Nan values of the dataset is replaced by the mean of their respective column. 
+To simplify the dataset, a new dataset was created only comprising common values such as property area, frequency of power cuts, power backup, water supply, traffic density score, crime rate, dust and noise, air quality index, and neighbourhood review for a particular area.
+This preprocessed dataset will be used for further prediction and model training.
+
+### Selecting pre-trained model
+
+The project utilized two machine learning models, namely the DecisionTreeRegressor and AdaBoostRegressor. The DecisionTreeRegressor was chosen as the weak learner, and it was fitted inside the AdaBoostRegressor. AdaBoostRegressor is a meta-estimator that adjusts the weights of instances based on the error of the current prediction. This approach is less prone to overfitting as the input parameters are not jointly optimized, and it improves the accuracy of weak classifiers.
 
 ## How do we present it?
 There's no use in having a 100% perfect model that solves the problem in a split second if a normal end user can use it. So we created an Eye Candy Web App to present the model to the user. There's also a page on which you can calculate your own Habitability Index.
@@ -49,7 +59,7 @@ Its key benefits include:
 - Simplifying development with a unified programming model can help reduce the need for platform-specific code.
 
 ### Benchmarks
-Using oneAPI in our project provided us with around a 2% uplift in accuracy. This may seem like a tiny improvement but on larger datasets, this will impact accuracy on a larger scale.
+Using oneAPI in our project provided us with around a 2% uplift in accuracy. This may seem like a tiny improvement but on larger datasets, this will impact accuracy on a larger scale. Note: These benchmarks are taken on machines with identical specs
 
 Our Benchmarks:
 
@@ -80,4 +90,3 @@ https://user-images.githubusercontent.com/67329471/230719128-9a730d3e-8c55-418e-
 
 ### Queen Comfort Calculator
 ![image](https://user-images.githubusercontent.com/67329471/230727667-b4a301bc-3778-4ca0-99c5-6b37806923d5.png)
-
