@@ -26,5 +26,13 @@ conda activate base
 pip install ipykernel
 python -m ipykernel install --user --name 2022.3.1 --display-name "oneAPI 2022.3.1"
 ```
+Now head on to your jupyter notebook file and select the Kernel option on the top right corner
+![image](https://user-images.githubusercontent.com/96832767/230755151-31a60bf5-2599-4d39-9a22-9d37f472111b.png)
 
-Doing this will install oneAPI in your Jupyter Lab. After these procedures you can use oneAPI in your projects and enjoy your increased performance ; ). 
+Select OneAPI kernel here:
+![image](https://user-images.githubusercontent.com/96832767/230755333-894fbe6d-48d3-4d50-86d2-15f030ab6f1d.png)
+
+Now you'll be granted with this:
+![image](https://user-images.githubusercontent.com/96832767/230755383-bfd62251-96bb-4cca-97aa-b98038fb2ce3.png)
+
+After these procedures you can use oneAPI in your projects and enjoy your increased performance ; ). 
