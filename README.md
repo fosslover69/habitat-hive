@@ -13,6 +13,8 @@ Habitat Hive solves these problems using Machine Learning algorithms by giving h
 
 The project utilizes a dataset obtained from Kaggle, comprising various features such as Property ID, Property type, property area, Number of windows, Number of doors, Furnishing, Frequency of Power cuts, Power backup, Water supply, traffic density score, crime rate, dust and noise, air quality index, neighbourhood review, and habitability score. 
 
+Dataset: https://www.kaggle.com/datasets/ifteshanajnin/get-a-room-ml-hackathon-by-hackerearth
+
 ### Data Preprocessing
 
 As the habitability score prediction requires numerical values, all the discrete values were converted into numerical values (e.g., Furnished, Semi Furnished, and Unfurnished to 1, 0.5, and 0, respectively). The Nan values of the dataset is replaced by the mean of their respective column. 
